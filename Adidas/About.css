@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image\ copy\ 3.png);
+}
+
+.shoe1{
+    background-image: url(image\ copy.png);
+    background-size: cover;
+
+    color: darkred;
+
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid red;
+    border-radius: 10px;
+
+    box-shadow: -5px 5px 5px red;
+
+    margin-top: 65px;
+}
+
+
+.shoe1txt{
+    padding-top: 250px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+
+    
+    margin-top: 20px;
+}
+
+
+.shoe2{
+    background-image: url(image\ copy\ 2.png);
+    background-size: cover;
+
+    color: darkred;
+
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid red;
+    border-radius: 10px;
+
+    box-shadow: -5px 5px 5px red;
+
+    margin-top: 65px;
+}
+
+.shoe2txt{
+    padding-top: 250px;
+}
+
+
+.shoe3{
+    background-image: url(image\ copy\ 4.png);
+    background-size: cover;
+
+    color: darkred;
+
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid red;
+    border-radius: 10px;
+
+    box-shadow: -5px 5px 5px red;
+
+    margin-top: 65px;
+}
+
+
+.shoe3txt{
+    padding-top: 250px;
+}
+
+.shoe4{
+    background-image: url(image\ copy\ 5.png);
+    background-size: cover;
+
+    color: darkred;
+
+    width: 300px;
+    height: 300px;
+
+    border: 2px solid red;
+    border-radius: 10px;
+
+    box-shadow: -5px 5px 5px red;
+
+    margin-top: 65px;
+}
+
+.shoe4txt{
+    padding-top: 250px;
+}
