@@ -1,1 +1,0 @@
-console.log("This child page made by 'Giga khutsishvili'")
