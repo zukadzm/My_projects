@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+ background-image: url(addidasmain.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+}
+
+header nav ol {
+    display: flex;
+    float: inline-end;
+    gap: 30px;
+    margin-right: 45px;
+    font-size: 45px;
+}
+
+
+header ol {
+    list-style:none;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    padding: 3px 4px;
+    transition: 2s;
+    background-color: chartreuse;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+
+header a {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+main {
+    margin-left: 280px;
+    padding-top: 320px;
+
+    color: rgb(0, 255, 8);
+
+    font-size: 21px;
+}
+
+main button {
+    width: 90px;
+    height: 41px;
+    background-color: #22005d;
+
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main button:hover {
+    border: 3px solid black;
+
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+

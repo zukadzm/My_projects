@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(mainback.png);
+    background-size: cover;
+}
+
+#first-line {
+    display: flex;
+    justify-content: space-around;
+}
+
+#first-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px;
+}
+
+header a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+header h1 {
+    color: whitesmoke;
+
+    text-align: center;
+}
+
+.parg2 {
+    float: inline-end;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: fixed;
+}
+
+
+header button {
+    background-color: tomato;
+}
+
+button:hover {
+    border: 3px solid black;
+}
+
+button {
+    font-size: 18px;
+}
+
+.first-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(man.png);
+    background-size: cover;
+}
+
+
+.second-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(man2.png);
+    background-size: cover;
+}
+
+.third-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(man3.png);
+    background-size: cover;
+}
+
+.fourth-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(man4.png);
+    background-size: cover;
+}
+
+.fifht-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(man5.png);
+    background-size: cover;
+}
+
+
+
+#second-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#second-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px;
+}
+
+.sixth-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshoe1.png);
+    background-size: cover;
+}
+
+.seven-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(manshoe2.png);
+    background-size: cover;
+}
+
+.eight-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshoe3.png);
+    background-size: cover;
+}
+
+.nine-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshoe4.png);
+    background-size: cover;
+}
+
+.ten-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshoe4.png);
+    background-size: cover;
+}
+
+
+#third-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#third-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+.box-11 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshort1.png);
+    background-size: cover;
+}
+
+.box-12 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshort2.png);
+    background-size: cover;
+}
+
+.box-13 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshort3.png);
+    background-size: cover;
+}
+
+.box-14 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshort4.png);
+    background-size: cover;
+}
+
+.box-15 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manshort5.png);
+    background-size: cover;
+}
+
+#fourth-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+
+.box-16 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manbag1.png);
+    background-size: cover;
+}
+
+.box-17 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manbag2.png);
+    background-size: cover;
+}
+
+.box-18 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manbag3.png);
+    background-size: cover;
+}
+
+.box-19 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manbag4.png);
+    background-size: cover;
+}
+
+.box-20 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manbag5.png);
+    background-size: cover;
+}
+
+
+#fifht-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fifht-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+.box-21 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manhat1.png);
+    background-size: cover;
+}
+
+.box-22 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(manhat2.png);
+    background-size: cover;
+}
+
+.box-23 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manhat3.png);
+    background-size: cover;
+}
+
+.box-24 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manhat4.png);
+    background-size: cover;
+}
+
+.box-25 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(manhat5.png);
+    background-size: cover;
+}

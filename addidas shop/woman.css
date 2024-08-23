@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    width: 100%;
+    height: 65px;
+    background-color: black;
+}
+
+body {
+    background-image: url(womanbackeround.png);
+    background-size: cover;
+}
+
+header h1 {
+    color: white;
+
+    text-align: center;
+    padding-top: 10px;
+    font-size:45px;
+    
+}
+
+#first-line {
+    display: flex;
+    justify-content: space-around;
+}
+
+#first-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px;
+}
+
+header a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+header h1 {
+    color: whitesmoke;
+
+    text-align: center;
+}
+
+.parg2 {
+    float: inline-end;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    position: fixed;
+}
+
+
+header button {
+    background-color: tomato;
+}
+
+button:hover {
+    border: 3px solid black;
+}
+
+button {
+    font-size: 18px;
+}
+
+.first-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman1.png);
+    background-size: cover;
+}
+
+
+.second-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman2.png);
+    background-size: cover;
+}
+
+.third-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(woman3.png);
+    background-size: cover;
+}
+
+.fourth-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman4.png);
+    background-size: cover;
+}
+
+.fifht-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman5.png);
+    background-size: cover;
+}
+
+#second-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#second-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px;
+}
+
+.sixth-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman6.png);
+    background-size: cover;
+}
+
+.seven-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(woman7.png);
+    background-size: cover;
+}
+
+.eight-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman8.png);
+    background-size: cover;
+}
+
+.nine-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman9.png);
+    background-size: cover;
+}
+
+.ten-box {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman10.png);
+    background-size: cover;
+}
+
+
+#third-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#third-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+.box-11 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman11.png);
+    background-size: cover;
+}
+
+.box-12 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman12.png);
+    background-size: cover;
+}
+
+.box-13 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman13.png);
+    background-size: cover;
+}
+
+.box-14 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman14.png);
+    background-size: cover;
+}
+
+.box-15 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman15.png);
+    background-size: cover;
+}
+
+#fourth-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fourth-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+
+.box-16 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman16.png);
+    background-size: cover;
+}
+
+.box-17 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman17.png);
+    background-size: cover;
+}
+
+.box-18 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman18.png);
+    background-size: cover;
+}
+
+.box-19 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman19.png);
+    background-size: cover;
+}
+
+.box-20 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman20.png);
+    background-size: cover;
+}
+
+
+#fifht-line {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#fifht-line button {
+    width: 85px;
+    height: 50px;
+    background-color: rgb(102, 84, 84);
+    color: white;
+
+    margin-top: 237px
+}
+
+.box-21 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman21.png);
+    background-size: cover;
+}
+
+.box-22 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    
+    background-image: url(woman22.png);
+    background-size: cover;
+}
+
+.box-23 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman23.png);
+    background-size: cover;
+}
+
+.box-24 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman24.png);
+    background-size: cover;
+}
+
+.box-25 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+
+    background-image: url(woman25.png);
+    background-size: cover;
+}
+

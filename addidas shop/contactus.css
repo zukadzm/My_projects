@@ -1,0 +1,72 @@
+header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+main {
+    text-align: center;
+    margin-top: 190px;
+}
+
+body {
+    background-image: url(contact.png);
+    background-size: cover;
+}
+
+
+.email {
+    background-image: url(mail.png);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+
+    position: absolute;
+    
+    margin-left: 586px;
+    margin-top: 255px;
+}
+
+.number {
+    background-image: url(number.png);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+
+    position: absolute;
+
+    margin-left: 586px;
+    margin-top: 155px;
+}
+
+.address {
+    background-image: url(addres.png);
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+
+    position: absolute;
+
+    margin-left: 586px;
+    margin-top: 340px;
+}
+
+.button-1 {
+    width: 62px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.button-1:hover {
+    border: 3px solid white;
+}
