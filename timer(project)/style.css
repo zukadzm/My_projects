@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+.container {
+    margin-top: 184px;
+    margin-left: 515px;
+    width: 400px;
+    height: 210px;
+    background: linear-gradient(100deg, rgb(36, 0, 154),rgb(0, 115, 255));
+    border-radius: 15px;
+}
+
+.container-elements {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 56px;
+    height: 34px;
+    padding-top: 86px;
+    padding-left: 99px;
+}
+
+/* აქ ავიტანე ზემოთ "-" ის დახმარებით */
+
+.resultt {
+    margin-top: -45px;
+    position: absolute;
+    right: 674px;
+}
+
+.container button {
+    padding: 6px 14px;
+    background-color: gray;
+    border-radius: 10px;
+    border: none;
+}
+
+.container button:hover {
+    border: 2px solid black;
+}
+
+header {
+    width: 100%;
+    height: 92px;
+    background-color: gray;
+    padding-top: 27px;
+
+    animation-name: navbar;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+header h1 {
+    text-align: center;
+    color: black;
+}
+
+@keyframes navbar{
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: rgb(96, 93, 93);
+    }
+    20% {
+        background-color: aqua;
+    }
+    30% {
+        background-color: darkcyan;
+    }
+    40% {
+        background-color: darkblue;
+    }
+    50% {
+        background-color: yellow;
+    }
+    60% {
+        background-color: orange;
+    }
+    70% {
+        background-color: darkslategrey;
+    }
+    80% {
+        background-color: darkred;
+    }
+    90% {
+        background-color: darkorange;
+    }
+    100% {
+        background-color: cornflowerblue;
+    }
+}
