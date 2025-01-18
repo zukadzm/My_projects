@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-image: url(images/loginimage.png);
+    background-size: cover;
+}
+
+.container-Myform {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+form input {
+    width: 210px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    width: 125px;
+    height: 32px;
+    background-color: rgba(10 18, 25, 0.5);
+    color: white;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.button:hover {
+    border: 2px solid black;
+    cursor: pointer;
+}
