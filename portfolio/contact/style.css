@@ -1,0 +1,77 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background: linear-gradient(100deg, rgb(203, 4, 4),rgb(11, 4, 74));
+}
+a {
+    text-decoration: none;
+}
+
+.phone {
+    background-image: url(phone.png);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.mail {
+    background-image: url(mail.png);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.location {
+    background-image: url(location.png);
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.contact-photo {
+    display: grid;
+    justify-content: center;
+    padding-top: 195px;
+    gap: 25px;
+}
+
+.phone p {
+    color: black;
+    padding-left: 80px;
+    padding-top: 10px;
+    width: 165px;
+}
+
+.mail p {
+    color: black;
+    padding-left: 80px;
+    padding-top: 4px;
+    width: 210px;
+}
+
+.location p {
+    color: black;
+    padding-left: 80px;
+    padding-top: 4px;
+    width: 255px;
+}
+
+.btn {
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    background: linear-gradient(100deg, rgb(30, 0, 255), rgb(149, 0, 255));
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 5px;
+    transition: 1s;
+    border: 3px solid white;
+}
+
+
