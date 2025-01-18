@@ -1,0 +1,135 @@
+.colorChanges-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+body {
+    background-image: url(pht/main.png);
+    background-size: cover;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+}
+button:hover {
+    font-size: 14px;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+table {
+    margin-left: 250px;
+}
+
+.modeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container-SecondChange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#colorChange {
+    background-color: red;
+}
+
+#colorChange1 {
+    background-color: purple;
+}
+
+#colorChange2 {
+    background-color: black;
+    color: white;
+}
+
+#colorChange3 {
+    background-color: green;
+    color: white;
+}
+
+#colorChange4 {
+    background-color: blue;
+}
+
+#colorChange5 {
+    background-color: pink;
+}
+
+#colorChange6 {
+    background-color: yellow;
+}
+
+a {
+    color: white;
+}
+
+#colorChange7 {
+    color: black;
+    background-color: white;
+}
+
+.fontsize-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.fontsize-Container-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+table {
+    border-radius: 10px;
+    width: 1100px;
+    table-layout: auto;
+}
+
+.fontFamyli-Containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+#serrif {
+    font-family: serif;
+    color: black;
+}
+
+#Cursive {
+    font-family: cursive;
+    color: black;
+}
+
+#monospace {
+    font-family: monospace;
+    color: black;
+}
+
+#fantasyy {
+    font-family: fantasy; /* Font Change */
+    color: black;
+}
+
