@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    animation-name: backroundanimation;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+}
+
+@keyframes backroundanimation{
+    0% {
+        background-color: red;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: purple;
+    }
+    30% {
+        background-color: cyan;
+    }
+    40% {
+        background-color: orange;
+    }
+    50% {
+        background-color: orangered;
+    }
+    60% {
+        background-color: yellow;
+    }
+    70% {
+        background-color: fuchsia;
+    }
+    80% {
+        background-color: rosybrown;
+    }
+    90% {
+        background-color: lightblue;
+    }
+    100% {
+        background-color: violet;
+    }
+
+}
+
+button {
+    width: 165px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: black;
+    color: white;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 60px;
+}
+
+.resClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+.secondContainer-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 35px;
+}
+
+.res {
+    width: 110px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+}
+
+@media (max-width: 344px) {
+    button {
+        height: 150px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-buttons {
+        flex-direction: column;
+    }
+    button {
+        height: 135px;
+    }
+    .secondContainer-buttons {
+        flex-direction: column;
+    }
+}
