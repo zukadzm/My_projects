@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navbar" id="nvb">
+        <h1 id="cl">Calculator</h1>
+    </div>
+        <div class="container-calculator" id="cont">
+            <input id="display" readonly>  <!-- readonly ანუ მარტო შეხედვა რომ შეგვეძლოს და არა დაწერა -->
+            <div class="container-buttons">
+                <button onclick="inputDisplay('1')">1</button>
+                <button onclick="inputDisplay('2')">2</button>
+                <button onclick="inputDisplay('3')">3</button> 
+                <button onclick="inputDisplay('4')">4</button> <br>
+                <button onclick="inputDisplay('5')">5</button>
+                <button onclick="inputDisplay('6')">6</button> 
+                <button onclick="inputDisplay('7')">7</button> 
+                <button onclick="inputDisplay('8')">8</button> <br>
+                <button onclick="inputDisplay('9')">9</button> 
+                <button onclick="inputDisplay('0')">0</button> 
+                <button class="plus" onclick="inputDisplay('+')">+</button>
+                <button class="minus" onclick="inputDisplay('-')">-</button>
+                <div class="container-vel">
+                    <button onclick="inputDisplay('*')">X</button>
+                    <button onclick="inputDisplay('/')">/</button>
+                    <button onclick="clearDisplay('C')">C</button> 
+                    <button onclick="calculate('=')">=</button>
+                </div>
+            </div>
+        </div>
+
+        <button id="darkmode">Dark Mode</button>
+        <button id="lightmode">Light Mode</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

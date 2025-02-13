@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container-myform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+#btn {
+    width: 75px;
+    height: 30px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+}
+
+table {
+    width: 1100px;
+    background-color: blue;
+    font-size: 20px;
+    margin-top: 20px;
+    gap: 199px;
+    border-radius: 10px;
+    color: white;
+}
+
+table button {
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+table button:hover {
+    border: 3px solid black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.spann {
+    margin-left: 1200px;
+}
+
+.menuBack {
+    margin-left: 1225px;
+}
+
+#mspan {
+    width: 80px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#closeMenu {
+    width: 80px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#darkmd {
+    background-color: white;
+    color: black;
+}
+
+#lightmd {
+    background-color: white;
+    color: black;
+}
+
+#btn {
+    border-radius: 10px;
+    border: 2px solid black;
+}
